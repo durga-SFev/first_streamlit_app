@@ -1,3 +1,3 @@
 import streamlit
 
-streamlit.('SNOWFLAKE DEVELOPER DP')
+streamlit.title('SNOWFLAKE DEVELOPER DP')
