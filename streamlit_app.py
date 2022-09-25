@@ -1,11 +1,11 @@
 import streamlit
 
-streamlit.title('SNOWFLAKE DEVELOPER DP')
-streamlit.header('DURGA PRASAD')
-streamlit.text('i am a good boy')
-streamlit.text('ALL IS WELL')
+streamlit.title('My Parents New Healthy Diner')
 
-streamlit.text('12345')
+streamlit.header('Breakfast Menu')
+streamlit.text('omega 3 & Blueberry oatmeal')
+streamlit.text('kale,spinach & Rocket smoothie')
+streamlit.text('Hard-Boiled Free-Range Egg')
 
 
 
