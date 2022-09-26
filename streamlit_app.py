@@ -36,11 +36,13 @@ return fruityvice_normalized
 #New section to display fruityvice API responce
 streamlit.header("Fruityvice Fruit Advice!")
 try:
-  fruit_choice = streamlit.text_input('What fruit would you like information about?')
+   fruit_choice = streamlit.text_input('What fruit would you like information about?')
   if not fruit_choice:
     streamlit.error("Please select a fruit to get a Information.")
   else:
-  back_form_function = get_fruityvice_data(fruit_choice)
+       back_form_function = get_fruityvice_data(fruit_choice)
+       streamlit.dataframe(back_form_function)
+  
 #streamlit.write('The user entered ', fruit_choice)
 
 #import requests
@@ -50,8 +52,7 @@ try:
 
 # write your own comment -what does the next line do? 
    # write your own comment - what does this do?
-    streamlit.dataframe(back_form_function)
-  
+    
 except URLError as e:
   streamlit.error()
 
